@@ -1,0 +1,19 @@
+/**
+ * START --- SETUP TAILWINDCSS EDIT
+ *
+ * `yarn rw setup ui tailwindcss` placed these imports here
+ * to inject Tailwind's styles into your CSS.
+ * For more information, see: https://tailwindcss.com/docs/installation#include-tailwind-in-your-css
+ */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/**
+ * END --- SETUP TAILWINDCSS EDIT
+ */
+body{
+  background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%) no-repeat;
+  min-height: 100vh;
+  color: #fff;
+  font-size: 1.25rem;
+}
