@@ -5,7 +5,7 @@ const AppLayout = ({ children }) => {
   return (
   <>
     <div className="container mx-auto">
-      <header>
+      <header className="relative mb-36">
         <Header />
       </header>
       <main>
