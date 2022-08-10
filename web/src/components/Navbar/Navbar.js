@@ -12,20 +12,20 @@ const Navbar = () => {
             <a href="#">Home</a>
           </div>
           <div className="nav-item">
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </div>
           <div className="nav-item">
-            <a href="#">Services</a>
+            <a href="#services">Services</a>
           </div>
           <div className="nav-item">
-            <a href="#">Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
           </div>
         </div>
       </div>
       <div className="col-span-1">
         <div className="nav-items">
           <div className="nav-item">
-            <a href="#" className="py-2 px-5 bg-light-gradient transition-all duration-300 border-2 border-transparent rounded-full leading-none ">Contact</a>
+            <a href="#contact" className="py-2 px-5 bg-light-gradient transition-all duration-300 border-2 border-transparent rounded-full leading-none ">Contact</a>
           </div>
         </div>
       </div>

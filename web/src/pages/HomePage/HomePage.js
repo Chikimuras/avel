@@ -10,7 +10,7 @@ const HomePage = () => {
     <>
       <MetaTags title="Home" description="Home page" />
       <LogoLine></LogoLine>
-      <section className="my-24">
+      <section id={'about'} className="my-24">
         <div className="grid grid-cols-10 place-content-center place-items-center">
           <div className="col-span-4">
             <img src="/img/alex.png" alt=""/>

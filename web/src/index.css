@@ -14,6 +14,9 @@
 * {
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%) no-repeat;
   min-height: 100vh;
