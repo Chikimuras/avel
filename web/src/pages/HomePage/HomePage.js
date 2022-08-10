@@ -32,8 +32,16 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-    <section className="services grid grid-cols-3">
-      <ServiceCard class="col-span-1" title="Serveur Minecraft" description="Je vous propose mon expertise dans les différent languages web pour du code review ou encore une séance de debug" icon="fa-bug"></ServiceCard>
+    <section id='services' className="services">
+      <h2 className='text-5xl font-bold text-center mb-8'>Mes principaux services</h2>
+      <div className="grid grid-cols-3 gap-5">
+        <ServiceCard class="col-span-1" title="Code review & Debug" description="Je vous propose mon expertise dans les différent languages web pour du code review ou encore une séance de debug" icon="fa-bug"></ServiceCard>
+        <ServiceCard class="col-span-1" title="Création de site vitrine" description="Fort de mes 5 années d'expérience dans le domaine, je saurais répondre à chacun de vos demande" icon="fa-desktop"></ServiceCard>
+        <ServiceCard class="col-span-1" title="Site e-Commerce" description="Je vous propose mon expertise dans les différent languages web pour du code review ou encore une séance de debug" icon="fa-store"></ServiceCard>
+        <ServiceCard class="col-span-1" title="Saas sur mesure" description="Vous avez une idée de business en ligne mais il vous manque les compétences techniques. TADAAAM, me voici !" icon="fa-comment-dollar"></ServiceCard>
+        <ServiceCard class="col-span-1" title="CRM & ERP" description="Votre entreprise est en pleine croissance et vous avez besoin d'outils adapter? Parlons de vos besoins et des solutions idéal." icon="fa-users"></ServiceCard>
+        <ServiceCard class="col-span-1" title="API & application mobile" description="La création d'API est une étape crucial pour votre application mobile ou web. Ma rigueur dans la réalisation de celle-ci saura vous satisfaire" icon="fa-mobile"></ServiceCard>
+      </div>
     </section>
     </>
   )
