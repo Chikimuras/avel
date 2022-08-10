@@ -1,6 +1,7 @@
 import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 import LogoLine from "src/components/LogoLine/LogoLine";
+import ServiceCard from "src/components/ServiceCard/ServiceCard";
 
 const HomePage = () => {
   return (
@@ -31,6 +32,9 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+    <section className="services grid grid-cols-3">
+      <ServiceCard class="col-span-1" title="Serveur Minecraft" description="Je vous propose mon expertise dans les différent languages web pour du code review ou encore une séance de debug" icon="fa-bug"></ServiceCard>
+    </section>
     </>
   )
 }
