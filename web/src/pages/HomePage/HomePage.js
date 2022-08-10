@@ -3,6 +3,7 @@ import { MetaTags } from '@redwoodjs/web'
 import LogoLine from "src/components/LogoLine/LogoLine";
 import ServiceCard from "src/components/ServiceCard/ServiceCard";
 import PortfolioCard from "src/components/PortfolioCard/PortfolioCard";
+import SocialNetwork from "src/components/SocialNetwork/SocialNetwork";
 
 const HomePage = () => {
   return (
@@ -44,7 +45,7 @@ const HomePage = () => {
         <ServiceCard class="col-span-1" title="API & application mobile" description="La création d'API est une étape crucial pour votre application mobile ou web. Ma rigueur dans la réalisation de celle-ci saura vous satisfaire" icon="fa-mobile"></ServiceCard>
       </div>
     </section>
-    <section id='portfolio' className="portfolio">
+    <section id='portfolio' className="portfolio mb-24">
       <h2 className='text-5xl font-bold mb-4'>Tous mes projets</h2>
       <p className='w-3/5 mb-16'>Je viens tous juste de commencer, je n'ai pas grand chose à montrer pour le moment. Mais c'est peut-être votre projet le prochain à être exposer ici</p>
       <div className="grid grid-cols-3 gap-5">
@@ -52,6 +53,9 @@ const HomePage = () => {
         <PortfolioCard img="/img/temp-img.jpg" class="col-span-1 opacity-75" title="Projet en cours..." description="Revenez dans quelques temps, vous pourrez voir le résultat de mon travail"></PortfolioCard>
         <PortfolioCard img="/img/temp-img.jpg" class="col-span-1 opacity-50" title="Projet en cours..." description="Revenez dans quelques temps, vous pourrez voir le résultat de mon travail"></PortfolioCard>
       </div>
+    </section>
+    <section id='contact' className="contact">
+      <SocialNetwork></SocialNetwork>
     </section>
     </>
   )
