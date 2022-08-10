@@ -8,7 +8,7 @@ import SocialNetwork from "src/components/SocialNetwork/SocialNetwork";
 const HomePage = () => {
   return (
     <>
-      <MetaTags title="Home" description="Home page" />
+      <MetaTags title="Alexandre Velia - Développeur Full Stack" description="Alexandre Velia, développeur full-stack propose ces services pour la création de vos sites web, applications mobiles, Saas ou encore ERP." />
       <LogoLine></LogoLine>
       <section id={'about'} className="my-24">
         <div className="grid grid-cols-10 place-content-center place-items-center">
