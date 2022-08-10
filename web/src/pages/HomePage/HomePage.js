@@ -32,8 +32,8 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-    <section id='services' className="services">
-      <h2 className='text-5xl font-bold text-center mb-8'>Mes principaux services</h2>
+    <section id='services' className="services mb-24">
+      <h2 className='text-5xl font-bold text-center mb-16'>Mes principaux services</h2>
       <div className="grid grid-cols-3 gap-5">
         <ServiceCard class="col-span-1" title="Code review & Debug" description="Je vous propose mon expertise dans les différent languages web pour du code review ou encore une séance de debug" icon="fa-bug"></ServiceCard>
         <ServiceCard class="col-span-1" title="Création de site vitrine" description="Fort de mes 5 années d'expérience dans le domaine, je saurais répondre à chacun de vos demande" icon="fa-desktop"></ServiceCard>
@@ -42,6 +42,10 @@ const HomePage = () => {
         <ServiceCard class="col-span-1" title="CRM & ERP" description="Votre entreprise est en pleine croissance et vous avez besoin d'outils adapter? Parlons de vos besoins et des solutions idéal." icon="fa-users"></ServiceCard>
         <ServiceCard class="col-span-1" title="API & application mobile" description="La création d'API est une étape crucial pour votre application mobile ou web. Ma rigueur dans la réalisation de celle-ci saura vous satisfaire" icon="fa-mobile"></ServiceCard>
       </div>
+    </section>
+    <section id='portfolio' className="portfolio">
+      <h2 className='text-5xl font-bold mb-4'>Tous mes projets</h2>
+      <p className='w-3/5 mb-16'>Je viens tous juste de commencer, je n'ai pas grand chose à montrer pour le moment. Mais c'est peut-être votre projet le prochain à être exposer ici</p>
     </section>
     </>
   )
