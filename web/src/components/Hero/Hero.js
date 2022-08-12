@@ -11,10 +11,10 @@ const Hero = () => {
           <div id="hero-desc" className="lg:w-2/5 md:w-3/5 sm:w-full">
             <p className="pb-5">
               Hey salut👋!<br/>
-              Je m'appel Alexandre et je suis développeur full-stack basée à Aix-les-bains en Savoie⛰. <br/>
+              Je m'appel Alexandre et je suis développeur full-stack basé à Aix-les-bains en Savoie⛰. <br/>
               </p>
             <p className="pb-5">
-              Je suis passionné par le développement web 🐱‍💻 et je suis à la recherche de nouveau défis à relevés.
+              Je suis passionné par le développement web 🐱‍💻 et je suis à la recherche de nouveau défis à relever.
             </p>
             <p><a href="#" className="block uppercase link bg-light-gradient bg-clip-text font-semibold">Contactez-moi <i className="fa-solid fa-arrow-right-long"></i></a></p>
           </div>

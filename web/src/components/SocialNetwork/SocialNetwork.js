@@ -10,7 +10,7 @@ const SocialNetwork = () => {
         <div className="body mb-16">
         <div className={'mb-10'}>
           <p className="w-3/5 mx-auto text-gray-300 text-xl text-center mb-12">
-            Je suis toujours ouvert pour discuter de vos idées et vos projets. N'hésitez pas a venir me rendre visite sur l'un de mes réseaux et à m'envoyer un message.
+            Je suis toujours ouvert pour discuter de vos idées et vos projets. N'hésitez pas à venir me rendre visite sur l'un de mes réseaux et à m'envoyer un message.
           </p>
           <div className="grid grid-cols-2 place-items-center place-content-center w-2/3 mx-auto">
             <div className="col-span-1 mb-3">
