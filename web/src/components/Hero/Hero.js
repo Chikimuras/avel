@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <div className="mt-36">
-        <div className="">
+        <div data-aos='fade-right' data-aos-delay="350">
           <div id="main-title" className="mb-8">
             <h1 className="text-[100px] font-bold leading-none">
               <span className="block">Alexandre</span>
@@ -19,7 +19,7 @@ const Hero = () => {
             <p><a href="#" className="block uppercase link bg-light-gradient bg-clip-text font-semibold">Contactez-moi <i className="fa-solid fa-arrow-right-long"></i></a></p>
           </div>
         </div>
-      <div className="absolute right-0 top-20 w-3/5 z-[-1]">
+      <div className="absolute right-0 top-20 w-3/5 z-[-1]" data-aos="fade-left">
         <img src="/img/hero.svg" alt="Hero image"/>
       </div>
     </div>

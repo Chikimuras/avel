@@ -22,12 +22,12 @@ const SocialNetwork = () => {
         </div>
         </div>
           <div className="social-network-links grid grid-cols-6 w-2/3 mx-auto place-content-center place-items-center">
-            <SocialNetworkIcon iconStyle="text-gray-500 hover:text-[#3b5998] transition" class="facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100083696675665" icon="fab fa-facebook-f" />
-            <SocialNetworkIcon iconStyle="text-gray-500 hover:text-[#0e76a8] transition" class="linkedin" target="_blank" href="https://www.linkedin.com/in/alexandre-velia/" icon="fab fa-linkedin-in" />
-            <SocialNetworkIcon iconStyle="text-gray-500 hover:text-[#171515] transition" class="github" target="_blank" href="https://github.com/Chikimuras" icon="fab fa-github" />
-            <SocialNetworkIcon iconStyle="text-gray-500 hover:text-[#1DA1F2] transition" class="twitter" target="_blank" href="https://twitter.com/Chikimuras" icon="fab fa-twitter" />
-            <SocialNetworkIcon iconStyle="text-gray-500 hover:text-[#C32AA3] transition" class="instagram" target="_blank" href="https://www.instagram.com/chikimuras/" icon="fab fa-instagram" />
-            <SocialNetworkIcon iconStyle="text-gray-500 hover:text-[#738ADB] transition" class="discord" target="_blank" href="https://discord.gg/uWdxKbTMRb" icon="fab fa-discord" />
+            <SocialNetworkIcon delay={"100"} iconStyle="text-gray-500 hover:text-[#3b5998] transition" class="facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100083696675665" icon="fab fa-facebook-f" />
+            <SocialNetworkIcon delay={"150"} iconStyle="text-gray-500 hover:text-[#0e76a8] transition" class="linkedin" target="_blank" href="https://www.linkedin.com/in/alexandre-velia/" icon="fab fa-linkedin-in" />
+            <SocialNetworkIcon delay={"200"} iconStyle="text-gray-500 hover:text-[#171515] transition" class="github" target="_blank" href="https://github.com/Chikimuras" icon="fab fa-github" />
+            <SocialNetworkIcon delay={"250"} iconStyle="text-gray-500 hover:text-[#1DA1F2] transition" class="twitter" target="_blank" href="https://twitter.com/Chikimuras" icon="fab fa-twitter" />
+            <SocialNetworkIcon delay={"300"} iconStyle="text-gray-500 hover:text-[#C32AA3] transition" class="instagram" target="_blank" href="https://www.instagram.com/chikimuras/" icon="fab fa-instagram" />
+            <SocialNetworkIcon delay={"350"} iconStyle="text-gray-500 hover:text-[#738ADB] transition" class="discord" target="_blank" href="https://discord.gg/uWdxKbTMRb" icon="fab fa-discord" />
           </div>
         </div>
     </div>

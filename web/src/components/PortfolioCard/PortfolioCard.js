@@ -1,6 +1,6 @@
 const PortfolioCard = (props) => {
   return (
-    <div className={`bg-light-gradient rounded-xl portfolio-card ${props.class}`} dataTarget={props.target}>
+    <div data-aos={'zoom-out'} data-aos-delay={props.delay} className={`bg-light-gradient rounded-xl portfolio-card ${props.class}`} data-target={props.target}>
       <div className="">
         <img src={props.img} alt={props.alt} className='rounded-t-xl'/>
       </div>
